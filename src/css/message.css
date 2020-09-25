@@ -1,0 +1,32 @@
+/* .avatar{
+    max-width: 60px;
+} */
+#messageWrap{
+    display: flex;
+    flex-direction: row;
+    vertical-align: center;
+    float: left;
+    border-bottom: solid 0.5px #bebebe;
+    padding: 1.2em 0em;
+    width: 90vw;
+    max-width: 90vw;
+    margin-left: 5vw;
+}
+.friend{
+    display: flex;
+}
+.avatar{
+    margin-left: 0vw;
+}
+.username{
+    padding-left: 0.4em;
+    margin-left: 0vw;
+}
+.messageContent{
+    display: flex;
+    justify-content: left;
+
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+}

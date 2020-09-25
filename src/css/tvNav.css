@@ -1,0 +1,79 @@
+#tvNavWrap{
+    max-width: 90vw;
+    width: 90vw;
+    overflow: hidden;
+
+}
+#tvNav{
+    overflow: hidden;
+    align-items: left;
+    align-self: left;
+    justify-content: left;
+    margin-left: 2em;
+    display: inline-flex;
+    flex-direction: row;
+    transition: margin-left 0.4s ease-in-out;
+    max-width: 90vw;
+    left: 5vw;
+}
+.tvBtn{
+    border: solid 1px #bebebe;
+    border-radius: 5em;
+    padding: 0.4em 0.6em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    margin-right: 1vw;
+}
+.tvBtn:hover{
+    background-color: #e4e4e4;
+    transition: background-color 0.2s ease-in-out;
+    border: solid 1px #e4e4e4;
+    transition: border 0.2s ease-in-out;
+}
+.tvBtn:hover:active{
+    background-color: #cccccc;
+    transition: background-color 0.2s ease-in-out;
+    border: solid 1px #cccccc;
+    transition: border 0.2s ease-in-out;
+}
+#leftArrow{
+    position: absolute;
+    left:5vw;
+    background-color: #fefefe;
+    z-index: 10;
+    font-size: 13px;
+}
+#leftArrow>i, #rightArrow>i{
+    font-size: 14px;
+    color: #38393c;
+}
+#rightArrow{
+    position: absolute;
+    right:2vw;
+    background-color: #fefefe;
+    z-index: 10;
+    font-size: 13px;
+}
+#leftArrow:hover, #rightArrow:hover{
+    background-color: #e4e4e4;
+    transition: background-color 0.2s ease-in-out;
+    border: solid 1px #e4e4e4;
+    transition: border 0.2s ease-in-out;
+}
+#leftArrow:hover:active, #rightArrow:hover:active{
+    border: solid 1px #cccccc;
+    transition: border 0.2s ease-in-out;
+    background-color: #cccccc;
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+@media screen and (min-width: 1080px){
+    #tvNavWrap{
+        overflow: hidden;
+        max-width: 90vw;
+        margin-left: -10vw;
+    }
+
+}

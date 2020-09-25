@@ -1,0 +1,16 @@
+.video{
+    vertical-align: center;
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    min-height: 31vw;
+    overflow: hidden;
+
+}
+#videoIcon{
+    color: #757575;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    font-size: 15px;
+}

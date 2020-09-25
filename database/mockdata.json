@@ -1,0 +1,40 @@
+{
+    "posts":[
+        {
+            "postId":1,
+            "username": "david",
+            "avatar":"./resume-picture-large.png",
+            "postContent":"My first post #awesome",
+            "postMedia":"./resume-picture-large.png",
+            "likesTotal":10000,
+            "commentsTotal": 2270
+        },
+        {
+            "postId":2,
+            "username": "david",
+            "avatar":"./resume-picture-large.png",
+            "postContent":"My second post #awesome #cool #hashtags",
+            "postMedia":"./resume-picture-large.png",
+            "likesTotal":10000,
+            "commentsTotal": 2270
+        },
+        {
+            "postId":3,
+            "username": "david",
+            "avatar":"./resume-picture-large.png",
+            "postContent":"My third post #fun #amazing #awesome #social",
+            "postMedia":"./resume-picture-large.png",
+            "likesTotal":10000,
+            "commentsTotal": 2270
+        },
+        {
+            "postId":4,
+            "username": "david",
+            "avatar":"./resume-picture-large.png",
+            "postContent":"My fourth post! Hooray! #party #super #awesome",
+            "postMedia":"./resume-picture-large.png",
+            "likesTotal":10000,
+            "commentsTotal": 2270
+        }
+    ]
+}

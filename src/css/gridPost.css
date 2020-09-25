@@ -1,0 +1,8 @@
+.gridPost{
+    max-width: 32vw;
+    padding:0px 0.5px;
+    cursor: pointer;
+    margin-top: -1.5px;
+    margin-bottom: -1.5px;
+    /* border: solid 0.5px #fefefe; */
+}

@@ -1,0 +1,102 @@
+#exploreNavWrap{
+    margin-left: 5vw;
+    margin-bottom: 1em;
+    max-width: 90vw;
+    overflow: hidden;
+}
+#exploreNav{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 2em;
+    transition: margin-left 0.48s ease-in-out;
+}
+#leftArrowEx{
+    position: absolute;
+    left:5vw;
+    background-color: #fefefe;
+    z-index: 10;
+    font-size: 13px;
+}
+#leftArrowEx>i, #rightArrowEx>i{
+    font-size: 14px;
+    color: #38393c;
+}
+
+#rightArrowEx{
+    position: absolute;
+    background-color: #fefefe;
+    z-index: 10;
+    font-size: 13px;
+    right:3.8vw;
+
+}
+#leftArrowEx:hover, #rightArrowEx:hover{
+    background-color: #e4e4e4;
+    transition: background-color 0.2s ease-in-out;
+    border: solid 1px #e4e4e4;
+    transition: border 0.2s ease-in-out;
+}
+#leftArrowEx:hover:active, #rightArrowEx:hover:active{
+    background-color: #cccccc;
+    transition: background-color 0.2s ease-in-out;
+    border: solid 1px #cccccc;
+    transition: border 0.2s ease-in-out;
+}
+.exploreBtn{
+    border: solid 1px #bebebe;
+    border-radius: 5em;
+    padding: 0.4em 0.6em;
+    margin-top: 2vh;
+    margin-right: 1vw;
+    font-size: 13px;
+}
+.exploreBtn:hover{
+    border: solid 1px #e4e4e4;
+    transition: border 0.2s ease-in-out;
+    background-color: #e4e4e4;
+    transition: background-color 0.2s ease-in-out;
+
+}
+.exploreBtn:hover:active{
+    background-color: #cccccc;
+    transition: background-color 0.2s ease-in-out;
+    border: solid 1px #cccccc;
+    transition: border 0.2s ease-in-out;
+}
+#searchForm{
+    width: 90vw;
+    display: flex;
+    margin-left: 0vw;
+}
+#searchInput{
+    outline: inherit;
+    border-radius: 5em;
+    border: solid 1px #bebebe;
+    padding: 0.66em 1em;
+    width: 90vw;
+    margin-left: 0vw;
+    margin-top: 1em;
+}
+#searchBtn{
+    margin-top: 1em;
+    background-color: #fefefe;
+    border-radius: 38px;
+    height: 38px;
+    width: 38px;
+    margin-left: 0.33em;
+
+}
+#searchBtn:active:hover{
+    background-color:#cccccc;
+    transition: background-color 0.2s ease-in-out;
+}
+#searchBtn:hover{
+
+    background-color: #e4e4e4;
+    transition: 0.4s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+#searchForm>button>i.fa-search{
+    font-size: 18px;
+    line-height: 15px;
+}

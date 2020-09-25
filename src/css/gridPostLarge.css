@@ -1,0 +1,8 @@
+.gridPostLarge{
+    display: inline-block;
+    max-width: 64vw;
+    background-image: cover;
+    padding: 0px;
+    cursor: pointer;
+    border: solid 0.5px #fefefe;
+}

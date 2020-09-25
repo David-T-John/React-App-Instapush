@@ -1,0 +1,9 @@
+.postThumbnail{
+    cursor: pointer;
+    max-width: 40px;
+    float: right;
+}
+.likeNotification{
+    min-height: 60px;
+    padding-bottom: 1.2em;
+}

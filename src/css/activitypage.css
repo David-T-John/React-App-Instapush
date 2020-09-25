@@ -1,0 +1,17 @@
+.activityLabel{
+    padding: 1em 0em;
+    color: #38393c;
+    border-bottom: solid 0.5px #bebebebb;
+    margin-bottom: 1.4em;
+}
+#activityPageWrap{
+    padding-top:0;
+    padding-bottom: 50.5px;
+    max-width: 90vw;
+}
+.avatar{
+    cursor: pointer;
+    margin-top: -10px;
+    max-width: 50px;
+    border-radius: 50px;
+}

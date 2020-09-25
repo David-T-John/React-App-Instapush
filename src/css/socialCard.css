@@ -1,0 +1,135 @@
+.postMedia{
+    max-width: 100vw;
+    margin-left: -5.6vw;
+}
+p{
+    max-width: 90vw;
+}
+#user{
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.fa.fa-ellipsis-h{
+    position: absolute;
+    cursor: pointer;
+    right: 5vw;
+    margin-top: 20px;
+    color: #38393c;
+}
+
+.postHeader{
+    vertical-align: center;
+    line-height: 2em;
+}
+.postDots{
+    line-height: 60px;
+    float: right;
+}
+#avatarMed{
+    cursor: pointer;
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 40px;
+    line-height: 40px;
+    margin-left: 0px;
+}
+#avatarMicro{
+    cursor: pointer;
+    min-width: 18px;
+    min-height: 18px;
+    max-width: 18px;
+    max-height: 18px;
+    border-radius: 18px;
+    line-height: 18px;
+    margin-bottom: -6px;
+    margin-right: 6px;
+}
+#likesCount{
+    font-size: 15px;
+    padding: 0.2em 0em;
+
+}
+.interactBtn{
+    margin-right: 10px;
+    margin-left: 0;
+}
+.fa-bookmark{
+    position: absolute;
+    margin-top: -0.81em;
+    right: 5vw;
+}
+#readMore{
+    font-size: 12px;
+    margin-left: 1.2em;
+}
+#date{
+    font-size: 9px;
+    padding: 10px 0px;
+    margin-left: 0vw;
+}
+.username{
+    font-size: 15px;
+}
+.postHeader.username{
+
+    margin-left: 0;
+    line-height: 40px;
+    vertical-align: center;
+
+}
+#postCaption{
+    padding-right: 5vw;
+}
+
+#cardWrapper{
+    padding: 1.2em 0em 1.4em 0em;
+    border-bottom: solid 1px #bebebe50;
+    max-width: 90vw;
+}
+#viewAllComments{
+    color: #858585;
+}
+#commentForm{
+    max-width: 90vw;
+    line-height: 18px;
+    margin-left: 6px;
+}
+#commentInput{
+    border: solid 1px #bebebe;
+    border-radius: 25em 0em 0em 25em;
+    padding: 0.4em 0em;
+    padding-left: 1em;
+}
+input:active{
+    outline: none;
+}
+#commentPost{
+    border: solid 1px #bebebe;
+    border-radius: 0em 25em 25em 0em;
+    padding: 0.4em 0.66em;
+}
+#likeIcon.fa.fa-heart{
+    color: rgb(204, 14, 14);
+}
+
+@media screen and (min-width: 1080px){
+    .fa.fa-ellipsis-h{
+        right: 15vw;
+    }
+    .postMedia{
+        max-width: 70vw;
+        margin-left: 0vw;
+    }
+    #cardWrapper{
+        max-width: 70vw;
+    }
+    #commentForm{
+        max-width: 70vw;
+    }
+    .fa-bookmark{
+        right: 15vw;
+    }
+}

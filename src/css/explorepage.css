@@ -1,0 +1,11 @@
+#explorepage{
+    max-width: 100vw;
+    width: 100vw;
+    position: absolute;
+    top: 52px;
+    padding-bottom: 50.5px;
+}
+#explorepage>video{
+
+    margin-right: -1em;
+}

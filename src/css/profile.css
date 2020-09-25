@@ -1,0 +1,72 @@
+.profileWrap{
+    background-image: linear-gradient(160deg, #fefefe, #f1f1f1);
+    min-width: 100vw;
+    position: absolute;
+    top: 50px;
+    background-color: #f1f1f1;
+    padding: 30px 0px;
+    height: 430px;
+    max-height: 430px;
+
+}
+#profileImage{
+    cursor: pointer;
+    min-width: 80px;
+    max-width: 80px;
+    border-radius: 80px;
+    margin-left: 5vw;
+    border: solid 3px rgb(168, 40, 228);
+}
+#plusIcon{
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: -1.66em;
+    background-color: #4284fb;
+    color: #fefefe;
+    border-radius: 50%;
+    padding: 0.22em;
+}
+#profileName{
+    font-weight: 700;
+    margin-left: 5vw;
+}
+.profileData{
+    max-width: 180px;
+    padding-left: 1.4em;
+    cursor: pointer;
+}
+#profileDataTable{
+    position: absolute;
+    top: 1em;
+    right: 5vw;
+    padding-top: 1.4em;
+    /* display: inline-block;
+    float: right; */
+}
+#bio{
+    padding: 10px 0px;
+    margin-left: 5vw;
+}
+#profileLink{
+    margin-left: 5vw;
+
+}
+#editProfile{
+    width: 90vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0.6em 0em;
+    background-color: #f8f9fc;
+    border: solid 0.5px #bebebe;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#highlights{
+    margin-left: 5vw;
+    margin-bottom: -1em;
+}
+#storiesWrap{
+    max-width: 95vw;
+    margin-left: 5vw;
+}

@@ -1,0 +1,21 @@
+{
+    "post1":{
+        "username":"david",
+        "userImage":"",
+        "postMedia":"",
+        "isLiked":"",
+        "likes":[],
+        "postCaption":"",
+        "commentsTotal":"3366",
+        "likesTotal":"333666",
+        "comments":[
+            {
+                "username":"", 
+                "comment":"", 
+                "likes":"",
+                "date":"", 
+                "replies":[{"username":"", "comment":"", "date":"", "likes":[]}]
+            }
+        ]
+    }
+}

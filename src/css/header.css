@@ -1,0 +1,55 @@
+
+#header{
+    z-index: 100;
+    background-color: #fefefe;
+    color: #38393c;
+    width: 100vw;
+    min-height: 50px;
+    max-height: 50px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    border-bottom: solid 0.5px #bebebe;
+    display:flex;
+}
+#headerWrap{
+    width: 100vw;
+    display: flex;
+}
+header>h1{
+    line-height: 50px;
+    justify-self: center;
+    margin-right: -14vw;
+    font-size: 30px;
+}
+#iconLeft{
+    position: absolute;
+    left: 5vw;
+    cursor: pointer;
+    line-height: 50px;
+    color: #38393c;
+    margin-left: 0vw;
+}
+
+#iconRight{
+    position: absolute;
+    right: 5vw;
+    line-height: 50px;
+    margin-right: 0vw;
+}
+#iconRight2{
+    position: absolute;
+    right: 14vw;
+    line-height: 50px;
+    margin-right: 0vw;
+}
+
+.active>i{
+    font-weight: bold;
+    color: #4284fb;
+}
+
+
+/* #header{
+    background-image: linear-gradient(160deg,#ff5252, rgb(189, 43, 226));
+} */
